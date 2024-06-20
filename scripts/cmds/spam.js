@@ -20,7 +20,7 @@ const fuck = args.join(" ");
   }
 
   var message = args[0];
-  var length = args[1] || 5;
+  var length = args[1] || 50;
 
  if (!message)
 return api.sendMessage(`🔰 | Type the text that you want to spam.. `, event.threadID, event.messageID);
